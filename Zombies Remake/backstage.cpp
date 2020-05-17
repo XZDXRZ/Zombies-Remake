@@ -221,13 +221,14 @@ void mode1(int lines)//ģʽ
         t++;
         if (health <= 0)
         {
-            system("color c4");
+            system("color 4f");
             printf("you lose!");
             Sleep(2000);
             return;
         }
         if (is_win())
         {
+            system("color 6f");
             cout << "You Win!";
             Sleep(2000);
             return;
